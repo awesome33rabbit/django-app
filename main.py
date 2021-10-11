@@ -11,8 +11,8 @@ from datetime import datetime
 
 from cookiecutter.main import cookiecutter
 
-
 if __name__ == "__main__":
     cookiecutter(
-        ".", extra_context={"timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+        "https://github.com/awesome33rabbit/django-app.git",
+        extra_context={"timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")},
     )
