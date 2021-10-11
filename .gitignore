@@ -126,7 +126,7 @@ dmypy.json
 
 
 # Custom
-migrations/
+#migrations/
 static/
 
 conf/

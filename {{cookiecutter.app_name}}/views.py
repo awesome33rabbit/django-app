@@ -9,7 +9,7 @@
 
 from utils_pkg.views.view_set import ModelViewSet
 
-from .serializers import {{cookiecutter.app_name | title}}Serializer
+from .serializers import {{cookiecutter.app_name | title}}, {{cookiecutter.app_name | title}}Serializer
 
 
 class {{cookiecutter.app_name | title}}Views(ModelViewSet):
