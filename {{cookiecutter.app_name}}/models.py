@@ -13,7 +13,7 @@ from .manages import {{cookiecutter.app_name | title}}Manager
 
 
 class {{cookiecutter.app_name | title}}(models.Model):
-    name = models.CharField("{{cookiecutter.app_name | title}}", max_length=32, unique=True)
+    name = models.CharField("{{cookiecutter.verbose_name}}", max_length=32, unique=True)
 
     objects = {{cookiecutter.app_name | title}}Manager()
 
