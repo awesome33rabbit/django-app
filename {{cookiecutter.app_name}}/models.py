@@ -9,7 +9,7 @@
 
 from django.db import models
 
-from .manages import {{cookiecutter.app_name | title}}Manager
+from .managers import {{cookiecutter.app_name | title}}Manager
 
 
 class {{cookiecutter.app_name | title}}(models.Model):
